@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(240, 240, 240);
+}
+
+p {
+    width: 100%;
+    text-align: center;
+}
+
+.Board {
+    height: 90%;
+    aspect-ratio: 14/16;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    background-color: rgb(167, 167, 167);
+    border-radius: 8px;
+}
+
+.Wrapper {
+    height: calc(100% - 64px);
+    aspect-ratio: 9/16;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+
+    margin: 32px 0px;
+
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.Sidebar {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Block {
+    margin: 1px;
+}
