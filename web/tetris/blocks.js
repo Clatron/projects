@@ -244,24 +244,17 @@ export function getBlock(blockId) {
   switch (blockId) {
     case 0:
       return Square();
-      break;
     case 1:
       return Line();
-      break;
     case 2:
       return T();
-      break;
     case 3:
       return Z();
-      break;
     case 4:
       return NZ();
-      break;
     case 5:
       return L();
-      break;
     case 6:
       return NL();
-      break;
   }
 }
