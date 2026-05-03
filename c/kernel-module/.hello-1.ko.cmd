@@ -1,0 +1,1 @@
+savedcmd_hello-1.ko := x86_64-linux-gnu-ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.19.11+kali-amd64/arch/x86/module.lds -o hello-1.ko hello-1.o hello-1.mod.o .module-common.o
